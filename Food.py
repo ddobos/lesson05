@@ -14,8 +14,6 @@ class Food:
 
 class Junk(Food):
 
-    energy = 0;
-
     def __init__(self, name, energy):
         super().__init__(name)
         self.food = 'junk'
@@ -29,7 +27,6 @@ class Junk(Food):
 
 
 class Healthy(Food):
-    energy = 0
 
     def __init__(self, name, energy):
         super().__init__(name)
